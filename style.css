@@ -36,6 +36,10 @@ body{
     line-height: 64px;
     color: white;
     margin-bottom: 40px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 .left-side-container p{
@@ -54,6 +58,10 @@ body{
     margin-bottom: 20px;
     font-size: 18px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */    
 }
 
 .login-form{
@@ -87,6 +95,11 @@ body{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
+.claim-trial:hover{
+    cursor: pointer;
+    background-color: hsl(154, 65%, 68%);
+}
+
 .small-text{
     text-align: center;
     width: 100%;
@@ -97,4 +110,5 @@ body{
 .small-text a{
     color: hsl(0, 100%, 74%);
     font-weight: 600;
+    cursor: pointer;
 }
