@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*outline: 1px solid red;*/
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+}
+
+.container{
+    margin: 0 164px;
+    display: flex;
+    gap: 70px;
+}
+
+.left-side-container{
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side-container h1{
+    font-size: 64px;
+    line-height: 64px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.left-side-container p{
+    color: white;
+    font-size: 24px
+}
+
+
+.trial-info{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #5d54a3;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.login-form{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.login-form input{
+    width: 100%;
+    padding: 16px 24px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.claim-trial{
+    width: 100%;
+    background-color: hsl(154, 59%, 51%);
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.small-text{
+    text-align: center;
+    width: 100%;
+    font-size: 11px;
+    color: hsl(246, 25%, 77%);
+}
+
+.small-text a{
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+}
